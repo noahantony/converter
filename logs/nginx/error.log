@@ -1,0 +1,148 @@
+2016/01/24 17:23:48 [error] 61#0: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/24 17:25:23 [error] 58#0: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32776", referrer: "http://192.168.99.100:32776/"
+2016/01/24 17:27:36 [error] 59#0: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32781", referrer: "http://192.168.99.100:32781/"
+2016/01/24 17:35:12 [error] 59#0: *9 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '<' in /home/website/default/phpinfo.php on line 3" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32781", referrer: "http://192.168.99.100:32781/"
+2016/01/24 17:35:58 [error] 59#0: *11 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '<' in /home/website/default/phpinfo.php on line 3" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32781", referrer: "http://192.168.99.100:32781/"
+2016/01/24 17:44:34 [error] 59#0: *26 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: comment in /home/website/default/phpinfo.php on line 10
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32781", referrer: "http://192.168.99.100:32781/"
+2016/01/24 17:45:04 [error] 59#0: *26 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: comment in /home/website/default/phpinfo.php on line 9
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32781", referrer: "http://192.168.99.100:32781/"
+2016/01/24 17:50:46 [error] 59#0: *38 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: lyrics in /home/website/default/phpinfo.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32781", referrer: "http://192.168.99.100:32781/"
+2016/01/24 17:52:40 [error] 59#0: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: lyrics in /home/website/default/phpinfo.php on line 3
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP Notice:  Undefined variable: lyrics in /home/website/default/phpinfo.php on line 8
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32781", referrer: "http://192.168.99.100:32781/"
+2016/01/25 00:21:13 [error] 55#0: *5 open() "/home/website/default/aims.jpg" failed (13: Permission denied), client: 192.168.99.1, server: website80.com, request: "GET /aims.jpg HTTP/1.1", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 00:23:24 [error] 55#0: *6 open() "/home/website/default/OurAims.jpg" failed (13: Permission denied), client: 192.168.99.1, server: website80.com, request: "GET /OurAims.jpg HTTP/1.1", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 00:40:39 [error] 55#0: *8 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/website/default/phpinfo.php on line 78" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 00:42:25 [error] 55#0: *10 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '>' in /home/website/default/phpinfo.php on line 78" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 00:43:37 [error] 55#0: *13 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents(people.txt): failed to open stream: No such file or directory in /home/website/default/phpinfo.php on line 78
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_get_contents() /home/website/default/phpinfo.php:78
+PHP message: PHP Warning:  file_put_contents(people.txt): failed to open stream: Permission denied in /home/website/default/phpinfo.php on line 82
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:82" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 00:43:45 [error] 55#0: *13 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents(people.txt): failed to open stream: No such file or directory in /home/website/default/phpinfo.php on line 78
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_get_contents() /home/website/default/phpinfo.php:78
+PHP message: PHP Warning:  file_put_contents(people.txt): failed to open stream: Permission denied in /home/website/default/phpinfo.php on line 82
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:82" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 00:49:57 [error] 55#0: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents(../logs/people.txt): failed to open stream: No such file or directory in /home/website/default/phpinfo.php on line 78
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_get_contents() /home/website/default/phpinfo.php:78
+PHP message: PHP Warning:  file_put_contents(../logs/people.txt): failed to open stream: No such file or directory in /home/website/default/phpinfo.php on line 82
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:82" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 00:50:04 [error] 55#0: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents(../logs/people.txt): failed to open stream: No such file or directory in /home/website/default/phpinfo.php on line 78
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_get_contents() /home/website/default/phpinfo.php:78
+PHP message: PHP Warning:  file_put_contents(../logs/people.txt): failed to open stream: No such file or directory in /home/website/default/phpinfo.php on line 82
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:82" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 00:50:09 [error] 55#0: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents(../logs/people.txt): failed to open stream: No such file or directory in /home/website/default/phpinfo.php on line 78
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_get_contents() /home/website/default/phpinfo.php:78
+PHP message: PHP Warning:  file_put_contents(../logs/people.txt): failed to open stream: No such file or directory in /home/website/default/phpinfo.php on line 82
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:82" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 00:53:58 [error] 55#0: *20 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents(files/people.txt): failed to open stream: No such file or directory in /home/website/default/phpinfo.php on line 78
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_get_contents() /home/website/default/phpinfo.php:78
+PHP message: PHP Warning:  file_put_contents(files/people.txt): failed to open stream: Permission denied in /home/website/default/phpinfo.php on line 82
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:82" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 00:55:34 [error] 55#0: *22 FastCGI sent in stderr: "PHP message: PHP Warning:  file_put_contents(files/people.txt): failed to open stream: Permission denied in /home/website/default/phpinfo.php on line 82
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:82" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 00:55:37 [error] 55#0: *22 FastCGI sent in stderr: "PHP message: PHP Warning:  file_put_contents(files/people.txt): failed to open stream: Permission denied in /home/website/default/phpinfo.php on line 82
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:82" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 00:55:47 [error] 55#0: *22 FastCGI sent in stderr: "PHP message: PHP Warning:  file_put_contents(files/people.txt): failed to open stream: Permission denied in /home/website/default/phpinfo.php on line 82
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:82" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 01:03:24 [error] 55#0: *33 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: current in /home/website/default/phpinfo.php on line 79
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/"
+2016/01/25 01:06:40 [error] 55#0: *33 FastCGI sent in stderr: "PHP message: PHP Warning:  ftruncate() expects parameter 1 to be resource, string given in /home/website/default/phpinfo.php on line 87
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. ftruncate() /home/website/default/phpinfo.php:87
+PHP message: PHP Warning:  fclose() expects parameter 1 to be resource, string given in /home/website/default/phpinfo.php on line 89
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. fclose() /home/website/default/phpinfo.php:89" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 01:10:17 [error] 55#0: *48 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, resource given in /home/website/default/phpinfo.php on line 79
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_get_contents() /home/website/default/phpinfo.php:79
+PHP message: PHP Warning:  file_put_contents() expects parameter 1 to be a valid path, resource given in /home/website/default/phpinfo.php on line 83
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_put_contents() /home/website/default/phpinfo.php:83
+PHP message: PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, resource given in /home/website/default/phpinfo.php on line 84
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_get_contents() /home/website/default/phpinfo.php:84" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 01:13:03 [error] 55#0: *55 FastCGI sent in stderr: "PHP message: PHP Warning:  fclose() expects parameter 1 to be resource, string given in /home/website/default/phpinfo.php on line 87
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. fclose() /home/website/default/phpinfo.php:87" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 01:14:21 [error] 55#0: *57 FastCGI sent in stderr: "PHP message: PHP Warning:  ftruncate() expects parameter 1 to be resource, string given in /home/website/default/phpinfo.php on line 88
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. ftruncate() /home/website/default/phpinfo.php:88
+PHP message: PHP Warning:  fclose() expects parameter 1 to be resource, string given in /home/website/default/phpinfo.php on line 89
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. fclose() /home/website/default/phpinfo.php:89" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 01:14:42 [error] 55#0: *57 FastCGI sent in stderr: "PHP message: PHP Warning:  ftruncate() expects exactly 2 parameters, 1 given in /home/website/default/phpinfo.php on line 88
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. ftruncate() /home/website/default/phpinfo.php:88
+PHP message: PHP Warning:  fclose() expects parameter 1 to be resource, string given in /home/website/default/phpinfo.php on line 89
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. fclose() /home/website/default/phpinfo.php:89" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 01:15:05 [error] 55#0: *57 FastCGI sent in stderr: "PHP message: PHP Warning:  ftruncate() expects parameter 1 to be resource, string given in /home/website/default/phpinfo.php on line 88
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. ftruncate() /home/website/default/phpinfo.php:88
+PHP message: PHP Warning:  fclose() expects parameter 1 to be resource, string given in /home/website/default/phpinfo.php on line 89
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. fclose() /home/website/default/phpinfo.php:89" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 01:21:58 [error] 55#0: *65 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /your_php_file.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 01:25:09 [error] 55#0: *71 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /your_php_file.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 01:26:10 [error] 55#0: *74 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /your_php_file.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 02:15:10 [error] 55#0: *155 FastCGI sent in stderr: "PHP message: PHP Warning:  fopen(files/converted/tamilLyrics.txt): failed to open stream: Permission denied in /home/website/default/clearContent.php on line 8
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/clearContent.php:0
+PHP message: PHP   2. fopen() /home/website/default/clearContent.php:8" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "POST /clearContent.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/phpinfo.php"
+2016/01/25 02:24:00 [error] 55#0: *172 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/clearContent.php"
+2016/01/25 02:25:40 [error] 55#0: *176 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/index.html"
+2016/01/25 08:53:55 [error] 54#0: *11 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/website/default/phpinfo.php on line 88
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/website/default/phpinfo.php:0
+PHP message: PHP   2. file_get_contents() /home/website/default/phpinfo.php:88" while reading response header from upstream, client: 192.168.99.1, server: website80.com, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "192.168.99.100:32771", referrer: "http://192.168.99.100:32771/clearContent.php"
